@@ -16,7 +16,7 @@ export default function App(){
       <NavBar />
       <Container maxWidth="md">
         <Box sx={{ py: 4 }}>
-          <Typography variant="h5" align="center" gutterBottom>AffordMed - URL Shortener (Frontend)</Typography>
+          <Typography variant="h5" align="center" gutterBottom>URL Shortener (Frontend)</Typography>
           <Routes>
             <Route path='/' element={<Navigate to='/shorten' replace />} />
             <Route path='/login' element={<LoginPage />} />
